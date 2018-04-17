@@ -1,0 +1,13 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 4000,
+    "username": "root",
+    "password": "root",
+    "database": "matchdb",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+        "src/models/**/*.ts"
+    ]
+}
